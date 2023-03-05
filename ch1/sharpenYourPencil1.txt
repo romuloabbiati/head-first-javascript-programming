@@ -1,0 +1,44 @@
+var price = 28.99; // create a variable called price and assign a value 
+28.99 to it
+
+var discount = 10; // create a variable called discount and assign a 
+value 10 to it
+
+var total = price - (price * (discount / 100));
+// create a variable called total and assign the result of the equation.
+// the equation above uses the values defined previously
+
+if(total > 25) {
+  freeShipping();
+} // if statement. If the value assigned to total is greater than
+// 25, it will execute the function freeShipping()
+
+var count = 10; // create a variable count and assign value 10 to it
+
+while (count > 0) {
+  juggle();
+  count = count - 1;
+} // while statement, while the value of count is greater than 0
+// while will run through the code defined within it
+// which is the function juggle(). At the end of the while statement
+// the value of count is decremented by one
+
+var dog = {name: "Rover", weight: 35}; // create an object with 2
+// attributes and assign it to the variable called dog
+
+if(dog.weight > 30) {
+  alert("WOOF WOOF");
+} else {
+  alert("woof woof");
+} // if statement, if the dog's weight is greater than 30 the alert will
+// display "WOOF WOOF" in caps
+// if dog.weight is less than or equal to 30, the alert function will 
+// display a lower case "woof woof"
+
+var circleRadius = 20; // creates a variable called circleRadius and 
+// assign a value 20 to it
+
+var ciecleArea = Math.PI * (circleRadius * circleRadius)
+// create a variable called circleArea and assign the result of the 
+equation to it. The equation is the formula of the area of a circle and 
+uses the value defined just above
