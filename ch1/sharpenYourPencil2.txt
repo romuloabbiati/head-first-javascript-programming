@@ -1,0 +1,26 @@
+temp = 10;
+(9 / 5) * temp + 32 = 
+(1.8) * 10 + 32 = 
+18 + 32 = 50
+
+color = "pink";
+color == "orange"; // the result is false
+// if color = "orange" the result will be true
+
+name = Martha;
+name + ", " + "you've won!"; // Martha, you've won!
+
+yourLevel > 5;
+yourLevel = 2; // false
+yourLevel = 5; // false
+yourLevel = 7; // true
+
+level = 5;
+points = 30,000;
+bonus = 3300;
+(level * points) + bonus = (5 * 30,000) + 3300 = 150,000 + 3300 = 153,000
+
+color = "pink";
+color != "orange" // true
+
+1000 + "108" = 1000108

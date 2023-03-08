@@ -1,0 +1,28 @@
+A)
+// Test for jokes
+var joke = "JavaScript walked into a bar...'; // it should be consistent
+// if it starts with double quotes, finish with double quotes or 
+// vice-versa
+
+var toldJoke = "false"; // a boolean value should not be embedded in 
+// double quotes
+
+var $spushline = "Better watch out for those semi-colons." 
+// it should be consistent, if decided to use semi-colon in one line, 
+all lines should have one or vice-versa
+
+var %entage = 20; // bad practice to start a variable name with %
+
+var result // a value should be assigned to the variable result
+
+B)
+// Movie Night
+var zip code = 98104; // variable naming convention not allows a white
+// space. It should use camel case convention
+
+var joe'sFavoriteMovie = Forbidden Planet; // according to variable 
+// naming convention it should not have special characters like single 
+// quotes. Also a string should be embedded in a double quotes
+
+var movieTicket$ = 9; // it should have only one white space between words
+
