@@ -1,0 +1,21 @@
+DOWN
+1 while
+3 case
+4 var
+5 values
+6 conditional
+8 faster
+9 decision
+11 strings
+12 script
+
+
+ACROSS
+2 src
+6 camel
+7 behaviour xxxx
+10 bottles xxxx
+13 statement xxxx
+14 expression
+15 semicolon
+16 console log
