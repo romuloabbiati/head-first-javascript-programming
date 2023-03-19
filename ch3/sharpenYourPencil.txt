@@ -1,0 +1,14 @@
+function bark(name, weight) {
+  if(weight > 20) {
+    console.log(name + "says WOOF WOOF");
+  } else {
+    console.log(name + " says woof woof");
+  }
+}
+
+bark("juno", 20); // juno says woof woof
+bark("scottie", -1); // scottie says woof woof
+bark("dino", 0, 0); // error
+bark("fido", "20"); // error
+bark("lady", 10); // lady says woof woof
+bark("bruno", 21); // bruno says WOOF WOOF
