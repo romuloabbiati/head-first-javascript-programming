@@ -1,0 +1,34 @@
+A bunch of JS attendees, in full costume, are playing a party game, "Who 
+am I?". They give you a clue, and you try to guess who they are, based on 
+what they say. Assume they always tell the truth about themselves. Fill in 
+the blank next to each sentence with the name of one attendee.
+
+Tonight's attendees:
+function, argument, return, scope, local variable, global variable, 
+pass-by-value, parameter, function call, Math.random, built-in functions, 
+code reuse.
+
+
+I get passed in to a function -> argument 
+
+I send values back to the calling code -> return
+
+I'm the all important keyword -> function
+
+I'm what receives arguments -> parameter
+
+It really means 'make a copy' -> local variable
+
+I'm everywhere -> global variable 
+
+Another phrase for invoking a function -> function call 
+
+Example of a function attached to an object -> Math.random 
+
+alert and prompt are examples -> built-in functions
+
+What functions are great for -> code reuse
+
+Where I can be seen -> scope
+
+I'm around when my functions is -> pass-by-value

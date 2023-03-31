@@ -1,0 +1,13 @@
+arguments: width=600, height=400, radius=5, x=32, y=44, centerX=0, 
+centerY=0 
+
+
+parameters: width, height, h1, y1, x2, y2, r
+
+
+locals: dx, dy, d2, d, area, distance
+
+
+globals: x, y, radius, centerX, centerY, width, height, *area* 
+
+
