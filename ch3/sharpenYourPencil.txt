@@ -7,8 +7,8 @@ function bark(name, weight) {
 }
 
 bark("juno", 20); // juno says woof woof
-bark("scottie", -1); // scottie says woof woof
-bark("dino", 0, 0); // error
-bark("fido", "20"); // error
+bark("scottie", -1); // scottie says woof woof  CODE STILL WORKS WITH < 0
+bark("dino", 0, 0); // dino says woof woof  CODE STILL WORKS WITH 0
+bark("fido", "20"); // fido says woof woof  JS STILL COMPARES "20" AND 20
 bark("lady", 10); // lady says woof woof
 bark("bruno", 21); // bruno says WOOF WOOF

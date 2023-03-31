@@ -1,0 +1,22 @@
+JAVASCRIPT CROSS
+
+Across
+4 variable
+6 passbyvalue 
+10 anywhere
+11 undefined
+13 function
+16 globals
+17 shadow
+
+Down
+1 scope
+2 reuse
+3 parameters
+5 return
+7 arguments
+8 variables
+9 tracing
+12 email
+14 local
+15 ignored
