@@ -8,21 +8,29 @@
                   69, 64, 66, 55, 52, 61,
                   46, 31, 57, 52, 44, 18,
                   41, 53, 55, 61, 51, 44];
-    let max = 0;
-    let list = [];
-    for(let i = 0; i < scores.length; i++) {
-      if(scores[i] > max) {
-        max = scores[i];
+    function printAndGetHighScore(scores) {
+      var max = 0;
+      for(var i = 0; i < scores.length; i++) {
+        if(scores[i] > max) {
+          max = scores[i];
+        }
+        console.log(`Bubble solution #${i} score: ${scores[i]}`);
       }
-      console.log(`Bubble solution #${i} score: ${scores[i]}`);
+      return max;
     }
+
+    var max = printAndGetHighScore(scores);
+    console.log('Bubbles tests:', scores.length);
+    console.log('Highest bubbles score:', max);
+
+    var list = [];
+
     for(let i = 0; i < scores.length; i++) {
       if(scores[i] === max) {
         list.push(i);
       }
     }
-    console.log('Bubbles tests:', scores.length);
-    console.log('Highest bubbles score:', max);
+
     console.log('Solutions with highest score:', list[0], list[1]);
   </script>
 </head>
