@@ -1,0 +1,21 @@
+ACROSS
+5 - sparse
+9 - assign
+10 - bubbleologist
+14 - refactor
+17 - index
+
+DOWN
+1 - push
+2 - for
+3 - multiple
+4 - less
+6 - postincrement
+7 - length
+8 - zero
+11 - undefined
+12 - organize
+13 - ordered
+15 - two
+16 - index
+
