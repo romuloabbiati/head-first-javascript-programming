@@ -9,7 +9,21 @@
       color: "yellow",
       passengers: 4,
       convertible: false,
-      mileage: 281341
+      mileage: 281341,
+      started: false,
+      start: function() {
+        this.started = true;
+      },
+      stop: function() {
+        this.started = false;
+      },
+      drive: function() {
+        if(this.started) {
+          alert(this.make + " " + this.model + " goes zoom zoom!");
+        } else {
+          alert("You need to start the engine first.");
+        }
+      }
     };
 
     var cadi = {
@@ -19,7 +33,21 @@
       color: "tan",
       passengers: 5,
       convertible: false,
-      mileage: 12892
+      mileage: 12892,
+      started: false,
+      start: function() {
+        this.started = true;
+      },
+      stop: function() {
+        this.started = false;
+      },
+      drive: function() {
+        if(this.started) {
+          alert(this.make + " " + this.model + " goes zoom zoom!");
+        } else {
+          alert("You need to start the engine first.");
+        }
+      }
     };
 
     var fiat = {
@@ -29,7 +57,21 @@
       color: "Medium Blue",
       passengers: 2,
       convertible: false,
-      mileage: 88000
+      mileage: 88000,
+      started: false,
+      start: function() {
+        this.started = true;
+      },
+      stop: function() {
+        this.started = false;
+      },
+      drive: function() {
+        if(this.started) {
+          alert(this.make + " " + this.model + " goes zoom zoom!");
+        } else {
+          alert("You need to start the engine first.");
+        }
+      }
     };
 
     var chevy = {
@@ -39,7 +81,21 @@
       color: "red",
       passengers: 2,
       convertible: false,
-      mileage: 1021
+      mileage: 1021,
+      started: false,
+      start: function() {
+        this.started = true;
+      },
+      stop: function() {
+        this.started = false;
+      },
+      drive: function() {
+        if(this.started) {
+          alert(this.make + " " + this.model + " goes zoom zoom!");
+        } else {
+          alert("You need to start the engine first.");
+        }
+      }
     };
 
     function prequal(car) {
@@ -79,6 +135,19 @@ fiat.model);
     } else {
       console.log("You should really pass on the " + chevy.make + " " + chevy.model);
     }
+
+    cadi.start();
+    cadi.drive();
+    cadi.stop();
+    chevy.start();
+    chevy.drive();
+    chevy.stop();
+    taxi.start();
+    taxi.drive();
+    taxi.stop();
+    fiat.start();
+    fiat.drive();
+    fiat.stop();
   </script>
 </head>
 <body>

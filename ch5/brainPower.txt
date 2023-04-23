@@ -1,0 +1,9 @@
+BRAIN POWER
+
+If you copy the start, stop and drive methods into the chevy and cadi 
+objects we created earlier, what do you have to change to make the methods 
+work correctly?
+
+Nothing! Because the this keyword refers to the object that holds that 
+particular method. If you call cadi.start(), it will run the start() 
+method based on the cadi properties/attributes, etc
