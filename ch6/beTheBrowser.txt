@@ -1,0 +1,9 @@
+					document
+
+					  html
+
+	head				body
+
+meta	title			head  h1  h2      p      h2    p
+
+						h2  p

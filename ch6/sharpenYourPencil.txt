@@ -1,0 +1,10 @@
+e7 - you
+e8 - can
+e16 - turn
+e9 - back
+e18 - pages
+e13 - but
+e12 - not
+e2 - time
+
+you can turn back pages but not time
