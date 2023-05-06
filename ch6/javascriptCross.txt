@@ -1,0 +1,20 @@
+JAVASCRIPT CROSS
+
+ACROSS
+5 HANDLERS
+7 CODE9
+9 FUNCTION
+12 innerHTML
+14 element
+15 tree
+
+DOWN
+1 greenplanet
+2 console
+3 page
+4 id
+6 setattribute
+8 document
+10 null
+11 dom
+13 method
