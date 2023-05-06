@@ -1,0 +1,20 @@
+WHO AM I?
+
+I get returned from a function when there is no return statement
+	-> undefined
+
+I'm the value of a variable when I haven't been assigned a value
+	-> undefined
+
+I'm the value of an array item that doesn't exist in a sparse array
+	-> undefined
+
+I'm the value of a property that doesn't exist
+	-> undefined
+
+I'm the value of a property that's been deleted
+	-> undefined
+
+I'm the value that can't be assigned to a property when you create an 
+object
+	-> undefined
