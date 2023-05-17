@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function validate(phoneNumber) {
+    if(phoneNumber.length > 8 || phoneNumber.length < 7) {
+      return false;
+    }
+    var array = phoneNumber.split('-', 2);
+    var first = array[0];
+    var second = array[1];
+
+    if(isNaN(first) || isNaN(second)) {
+      return false;
+    }
+    if(phoneNumber.length === 8) {
+      return (phoneNumber.charAt(3) === "-");
+    }
+    return true;
+  }
+</script>
+</head>
+<body>
+</body>
+</html>
