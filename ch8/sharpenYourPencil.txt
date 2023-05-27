@@ -1,0 +1,32 @@
+var ships = [{ locations: ['31', '41', '51'], hits: ['', '', '']},
+	     { locations: ['14', '24', '34'], hits: ['', 'hit', '']},
+	     { locations: ['00', '01', '02'], hits: ['hit', '', '']}];
+
+Which ships are already hit? 2 & 3 And, at what locations? C4=24 & A0=00
+
+The player guesses 'D4', does that hit a ship? Yes, it does. 
+If so, which one? ship 2.
+
+The player guesses 'B3', does that hit a ship? No, it does not.
+If so, which one? none.
+
+Finish this code to access the second ship's middle location and 
+prints its value with console.log.
+
+var ship2 = ships[1];
+var locations = ship2.locations;
+console.log('Location is ' + locations[1]);
+
+Finish this code to see if the third ship has a hit in its first lcoation:
+
+var ship3 = ships[2];
+var hits = ship3.hits;
+if(hits[0] === 'hit') {
+  console.log('Ouch, hit on third ship at location one');
+}
+
+Finish this code to hit the first ship at the third location:
+
+var ship1 = ships[0];
+var hits = ship1.hits;
+hits[2] = 'hit';
