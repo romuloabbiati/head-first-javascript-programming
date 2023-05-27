@@ -11,22 +11,26 @@ var view = {
     var cell = document.getElementById(location);
     cell.setAttribute('class', 'miss');
   }
-}
+};
 
+var model = {
+  boardSize: 7,
+  numShips: 3,
+  shipLength: 3,
+  shipsSunk: 0,
 
-view.displayHit('06');
-view.displayMiss('13');
-view.displayHit('24');
-view.displayMiss('41');
-view.displayHit('10');
-view.displayHit('34');
-view.displayMiss('56');
-view.displayMiss('01');
-view.displayHit('26');
-view.displayHit('11');
-view.displayHit('12');
-view.displayHit('44');
-view.displayHit('16');
+  ships: [{ locations: ['06', '16', '26'], hits: ['', '', ''] },
+          { locations: ['24', '34', '44'], hits: ['', '', ''] },
+          { locations: ['10', '11', '12'], hits: ['', '', ''] }],
 
-
-view.displayMessage('Tap tap, is this thing on?');
+  fire: function(guess) {
+    for(var i = 0; i < this.numShips; i++) {
+      var ship = this.ships[i]
+      var locations = ship.locations;
+      var index = locations.indexOf(guess);
+      if(index >= 0) {
+        // We have a hit!
+      }
+    }
+  }
+};
