@@ -1,0 +1,10 @@
+1 - Loop for the number of ships we want to create.
+
+2 - Generate a random direction (vertical or horizontal) for the new ship.
+
+3 - Generate a random location for the new ship.
+
+4 - Test to see if the new ship's locations collide with any existing 
+ship's locations.
+
+5 - Add the new ship's locations to the ships array.
