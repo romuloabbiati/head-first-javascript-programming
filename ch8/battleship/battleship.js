@@ -66,7 +66,7 @@ var model = {
     var direction = Math.floor(Math.random() * 2);
     var row, col;
 
-    if(direction === 1 {
+    if(direction === 1) {
       row = Math.floor(Math.random() * this.boardSize);
       col = Math.floor(Math.random() * (this.boardSize - this.shipLength));
     } else {
@@ -79,7 +79,7 @@ var model = {
       if(direction === 1) {
         newShipLocations.push(row + "" + (col + i));
       } else {
-        newShipLocations.push((row + i) + "" + col):
+        newShipLocations.push((row + i) + "" + col);
       }
     }
     return newShipLocations;
